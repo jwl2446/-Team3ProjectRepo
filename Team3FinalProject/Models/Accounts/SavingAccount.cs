@@ -5,13 +5,14 @@ using System.Web;
 
 namespace Team3FinalProject.Models
 {
-    public class StockPortfolio
+    public class SavingAccount
     {
-        public Int32 StockPortfolioID { get; set; }
+        public Int32 SavingAccountID { get; set; }
         public String AccountNumber { get; set; }
         public Decimal AccountBalance { get; set; }
-        //TODO: stock portfolio later bitches.
+        public String AccountName { get; set; }
 
         public virtual AppUser AppUser { get; set; }
+        public virtual List<Transaction> Transactions { get; set; }
     }
 }

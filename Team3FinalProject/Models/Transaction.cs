@@ -22,6 +22,11 @@ namespace Team3FinalProject.Models
         public String TransactionDescription { get; set; }
         public String Comments { get; set; }
 
+        public virtual CheckingAccount CheckingAccount { get; set; }
+        public virtual SavingAccount SavingAccount { get; set; }
+        public virtual IRAAccount IRAAccount { get; set; }
+        public virtual StockPortfolio StockPortfolio { get; set; }
+
 
 
     }

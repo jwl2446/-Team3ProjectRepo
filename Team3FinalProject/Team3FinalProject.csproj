@@ -214,15 +214,15 @@
       <DependentUpon>201704110020083_InitialSetup.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\CheckingAccount.cs" />
+    <Compile Include="Models\Accounts\CheckingAccount.cs" />
     <Compile Include="Models\AccountViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IdentityRoles.cs" />
-    <Compile Include="Models\IRAAccount.cs" />
+    <Compile Include="Models\Accounts\IRAAccount.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\RoleViewModels.cs" />
-    <Compile Include="Models\SavingAccount.cs" />
-    <Compile Include="Models\StockPortfolio.cs" />
+    <Compile Include="Models\Accounts\SavingAccount.cs" />
+    <Compile Include="Models\Accounts\StockPortfolio.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

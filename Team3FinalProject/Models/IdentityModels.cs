@@ -31,8 +31,8 @@ namespace Team3FinalProject.Models
 
         public virtual List<CheckingAccount> CheckingAccounts { get; set; }
         public virtual List<SavingAccount> SavingAccounts { get; set; }
-        public virtual IRAAccount IRAAccount { get; set; }
-        public virtual StockPortfolio StockPortfolio { get; set; }
+        public virtual List<IRAAccount> IRAAccounts { get; set; }
+        public virtual List<StockPortfolio> StockPortfolios { get; set; }
 
 
         //This method allows you to create a new user
