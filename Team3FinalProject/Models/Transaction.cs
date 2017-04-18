@@ -5,11 +5,14 @@ using System.Web;
 
 namespace Team3FinalProject.Models
 {
+
+    public enum TransactionType { Withdraw, Deposit, Transfer, BillPay }
     public class Transaction
     {
-        public enum TransactionType { Withdraw, Deposit, Transfer, BillPay}
+        
 
         public Int32 TransactionID { get; set; }
+        public String Description { get; set; }
         public String ToAccount { get; set; }
         public String FromAccount { get; set; }
         public String Date { get; set; }
@@ -18,6 +21,7 @@ namespace Team3FinalProject.Models
         public TransactionType Type { get; set; }
         public String TransactionDescription { get; set; }
         public String Comments { get; set; }
+
 
 
     }

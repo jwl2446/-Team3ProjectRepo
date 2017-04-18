@@ -5,14 +5,14 @@ namespace Team3FinalProject.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Team3FinalProject.DAL.AppDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Team3FinalProject.Models.AppDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Team3FinalProject.DAL.AppDbContext context)
+        protected override void Seed(Team3FinalProject.Models.AppDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
